@@ -5,8 +5,11 @@
 
     <groupId>com.example</groupId>
     <artifactId>simple-service</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>web-app</module>
+    </modules>
     <name>simple-service</name>
 
     <dependencyManagement>
@@ -69,7 +72,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>com.example.Main</mainClass>
+                    <mainClass>com.example.service.Main</mainClass>
                 </configuration>
             </plugin>
         </plugins>

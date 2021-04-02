@@ -1,4 +1,4 @@
-package com.example.beans.param;
+package com.example.service.beans.param;
 
 import javax.ws.rs.HeaderParam;
 import javax.ws.rs.QueryParam;

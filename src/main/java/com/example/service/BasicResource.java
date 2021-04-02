@@ -1,6 +1,6 @@
-package com.example;
+package com.example.service;
 
-import com.example.beans.param.MyBeanParam;
+import com.example.service.beans.param.MyBeanParam;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.Context;

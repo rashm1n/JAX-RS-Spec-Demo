@@ -1,0 +1,12 @@
+<web-app>
+    <servlet>
+<!--        Fully Qualified name of a class which extends Application Class-->
+        <servlet-name>com.example.deployment.ApplicationOriginal</servlet-name>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>com.example.deployment.ApplicationOriginal</servlet-name>
+        <url-pattern>/api</url-pattern>
+    </servlet-mapping>
+
+</web-app>

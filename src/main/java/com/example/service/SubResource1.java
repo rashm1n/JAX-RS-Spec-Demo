@@ -1,4 +1,4 @@
-package com.example;
+package com.example.service;
 
 import javax.ws.rs.GET;
 
